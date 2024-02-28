@@ -1,0 +1,51 @@
+// @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Noto+Serif+TC:wght@500;700&display=swap');
+
+/* Colors */
+/* Primary Color is (May Green) and secondary green is (Green) */
+$primary-green: #5A9F4D; 
+$secondary-green: #4FAA38;
+$charcoal: #333333;
+$black: #000000;
+$white: #FFFFFF;
+
+/* Font Family */
+$ff-heading: "Noto Serif TC", serif;
+$ff-body: "Noto Sans TC", sans-serif;
+$ff-poppins: "Poppins", sans-serif;
+$max-width: 120rem; 
+
+// CSS variables
+:root{
+    --fs-lg: 2.6rem;
+    --fs-md: 1.5rem;
+    --fs-normal: 1.6rem;
+}
+
+
+html{
+    font-size: 62.5%; 
+}
+
+/* RESET */ 
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: inherit;
+}
+body{
+    min-height: 100vh;
+    font-size: var(--fs-normal);
+    font-family: $ff-body;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+img, picture, svg, video{
+    display: block;
+    max-width: 100%;
+}
+
